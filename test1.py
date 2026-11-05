@@ -28,23 +28,7 @@ print(people)
 
 print("\n===== LOOPS =====")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-for person in people
+for person in people:
     print("Person:", person)
 
 print("\nTotal people:", len(people))
